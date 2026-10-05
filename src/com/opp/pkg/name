@@ -1,0 +1,12 @@
+命名规则：只能包含数字、字母、下划线、小圆点，但不能用数字开头，不能是关键字或保留字。
+错误示例：
+demo.class.exec1 （错误，class是关键字）
+demo.12a （错误，12a是数字开头）
+正确示例：demo.ab12.oa
+命名规范：一般是小写字母+小圆点，一般是com.公司名.项目名.业务模块名。
+举例：
+com.hspedu.oa.model
+com.hspedu.oa.controller
+com.sina.crm.user （用户模块）
+com.sina.crm.order （订单模块）
+com.sina.crm.utils （工具类）
